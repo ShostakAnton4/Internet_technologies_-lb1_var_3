@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <title>Лб 1</title>
+    </header>
+    <body>
+        <a id="text"></a><h2>Оформленный текст</h2></a> 
+        <strong>E=mc<SUP>2</SUP></strong>-энергия обьекта, <strong>m</strong> - его масса, <strong>с</strong> - скорость света в вакууме, равна 299 792 458 <em>м/с</em>.
+        <hr/>
+
+        <a id="list"><h2>Выпадающий список студентов группы</h2></a>
+        <select>
+            <option disabled selected="selected">Выберите студента:</option>
+            <option>Бодяк</option>
+            <option>Врублевский</option>
+            <option>Гузько</option>
+            <option>Єфремова</option>
+            <option>Зайцев</option>
+            <option>Злобін</option>
+            <option>Іонов</option>
+            <option>Коломоець</option>
+            <option>Кононенко</option>
+            <option>Круглов</option>
+            <option>Курченко</option>
+            <option>Махічев</option>
+        </select>
+        <hr/>
+        <a id="table"><h2>Таблица с данными оглавления</h2></a>
+        <table border="1">
+            <caption>Джон Рональд Руэл Толкиен. Властелин Колец</caption>  
+            <tbody>
+
+                <tr>
+                    <th colspan="2" scope="row">Пролог</th>
+                </tr>
+                <tr>
+                    <th scope="row" style="text-align:left">1. О хоббитах</th>
+                    <td style="text-align:right">2</td>
+                </tr>
+                <tr>
+                    <th scope="row" style="text-align:left">2. О трубочном зелье</th>
+                    <td style="text-align:right">3</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">3. О благоустройстве Хоббитании</th>
+                    <td style="text-align:right">4</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">4. О том, как нашлось Кольцо</th>
+                    <td style="text-align:right">4</td>
+                </tr>
+            <tr>
+                    <th scope="col" colspan="2">КНИГА 1</th>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Долгожданное угощение</th>
+                    <td style="text-align:right">6</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Тень прошлого</th>
+                    <td style="text-align:right">13</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Дорога втроем</th>
+                    <td style="text-align:right">20</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Напрямик по грибы</th>
+                    <td style="text-align:right">27</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Раскрытый заговор</th>
+                    <td style="text-align:right">30</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Вековечный лес</th>
+                    <td style="text-align:right">34</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">У Тома Бомбадила</th>
+                    <td style="text-align:right">38</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Мгла над Могильниками</th>
+                    <td style="text-align:right">41</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">"Гарцующий пони"</th>
+                    <td style="text-align:right">45</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Бродяжник</th>
+                    <td style="text-align:right">50</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Клинок в ночи</th>
+                    <td style="text-align:right">54</td>
+                </tr>
+            <tr>
+                    <th scope="row" style="text-align:left">Переправа</th>
+                    <td style="text-align:right">60</td>
+                </tr>
+            </tbody>
+        </table>  
+        <hr/>
+        <a id="form"><h2>Форма для ввода информации о студенте</h2></a>
+        <form name="test" method="post" action="input1.php">
+            <p><b>Фамилия:</b><br>
+                <input type="text" size="40">
+            </p>
+            <p><b>Имя:</b><br>
+                <input type="text" size="40">
+            </p>
+            <p><b>Отчество:</b><br>
+                <input type="text" size="40">
+            </p>
+            <p><b>Дата рождения:</b><br>
+                <input type="date" id="date" name="date"/>
+            </p>
+            <p><b>Группа:</b><br>
+                <input type="text" size="15">
+            </p>
+            <p>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Очистить">
+            </p>
+        </form>
+        <hr/>
+    </body>
+</html>
